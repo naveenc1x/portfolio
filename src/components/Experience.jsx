@@ -1,7 +1,5 @@
 import React from "react";
-
-import html from "../assets/html.png";
-import css from "../assets/css.png";
+import js from "../assets/js.png";
 import dart from "../assets/dart.png";
 import flutter from "../assets/flutter.png";
 import nest from "../assets/nest.png";
@@ -9,6 +7,7 @@ import mysql from "../assets/mysql.png";
 import github from "../assets/github.png";
 import firebase from "../assets/firebase.png";
 import ts from "../assets/ts.svg";
+import node from "../assets/node.png";
 
 
 const Experience = () => {
@@ -20,16 +19,16 @@ const Experience = () => {
       style: "shadow-blue-500",
     },
     {
-      id: 5,
-      src: firebase,
-      title: "Firebase",
-      style: "shadow-yellow-400",
-    },
-    {
       id: 6,
       src: nest,
       title: "Nest JS",
       style: 'shadow-red-500',
+    },
+    {
+      id: 1,
+      src: node,
+      title: "Node js",
+      style: "shadow-green-500",
     },
     {
       id: 3,
@@ -37,17 +36,12 @@ const Experience = () => {
       title: "Dart",
       style: "shadow-blue-500",
     },
-    {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
+
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: js,
+      title: "Js",
+      style: "shadow-yellow-500",
     },
     {
       id: 9,
@@ -55,7 +49,7 @@ const Experience = () => {
       title: "TypeScript",
       style: "shadow-blue-400",
     },
-    
+
     {
       id: 7,
       src: mysql,
@@ -63,12 +57,18 @@ const Experience = () => {
       style: "shadow-gray-400",
     },
     {
+      id: 5,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-400",
+    },
+    {
       id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
-    
+
   ];
 
   return (
